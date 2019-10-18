@@ -10,9 +10,13 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+    name: 'home',
+    components: {
+        HelloWorld
+    },
+    mounted () {
+        let a = 1
+        console.log(a)
+    }
 }
 </script>
